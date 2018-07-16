@@ -13,7 +13,7 @@ vrclust.fit(x,K, family=c("normal","multinomial"))
 \arguments{
   \item{x}{ n*p data matrix}
   \item{K}{ number of clusters}
-  \item{family} {type of distributions of \code{x}. }
+  \item{family}{type of distributions of \code{x}. }
 }
 
 \value{
