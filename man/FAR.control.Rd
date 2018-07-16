@@ -27,6 +27,7 @@ Donghwan Lee, Dongseok Choi, and Youngjo Lee. VRclust: An optimal clustering alg
 
 \author{
 Donghwan Lee, Dongseok Choi, and Youngjo Lee
+
 Maintainer: Donghwan Lee <donghwan.lee@ewha.ac.kr>
 }
 
