@@ -24,13 +24,3 @@ vrclust.fit \tab fit the discret latent variable model\cr
 FAR.control \tab construct optimal clustering rule for controling predetermined level of False assignment rate \cr
 vrclust.est \tab obtain the estimated confusion matrix based on the optimal clustering rule\cr
 }
-
-\author{
-Donghwan Lee, Dongseok Choi, and Youngjo Lee
-Maintainer: Donghwan Lee <donghwan.lee@ewha.ac.kr>
-}
-
-\references{
-Donghwan Lee, Dongseok Choi, and Youngjo Lee. VRclust: An optimal clustering algorithm with varying risks of flase assignments across clusters - 2018 Submitted.
-}
-
