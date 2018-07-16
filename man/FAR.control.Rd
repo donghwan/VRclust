@@ -13,8 +13,8 @@ FAR.control(clust, class=1, lambda=NULL, level=0.05)
 \arguments{
   \item{clust}{ clustering object from \code{vrclust.fit}}
   \item{class}{ Label number of targeted cluster which be controlled with the FAR level}
-  \item{lambda} {A vector of relative cost lambda. When controlling FAR, the default is NULL. }
-  \item{level} {Level of targeted FAR}
+  \item{lambda}{A vector of relative cost lambda. When controlling FAR, the default is NULL.}
+  \item{level}{Level of targeted FAR}
 }
 
 \value{
