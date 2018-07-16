@@ -33,6 +33,8 @@ Maintainer: Donghwan Lee <donghwan.lee@ewha.ac.kr>
 
 \examples{
 mc3k.clust<-vrclust.fit(x.irop, K=3, family="normal")
-## ML rule
-vrclust.est(mc3k.clust,mc3k.clust$delta)
+
+## FAR control at 0.01
+mc3k.01<-FAR.control(mc3k.clust,class=3,level=0.01)
+vrclust.est(mc3k.clust,mc3k.01$delta)
 }
