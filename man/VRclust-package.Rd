@@ -7,17 +7,6 @@
 There are three components to this package. These are: i) Construct and fit the finite mixture model when data are multivariate normal or multinomial (\code{vrclust.fit}). ii) Construct the optimal clustering rule for controlling the false assignment rate (\code{FAR.control}). iii) Obtain the estimated confusion matrix (\code{vrclust.est}).
 }
 
-\details{
-\tabular{ll}{
-Package: \tab VRclust\cr
-Type: \tab Package\cr
-Version: \tab 0.1.0\cr
-Date: \tab 2018-06-30\cr
-License: \tab GPL version 2.0 or newer\cr
-Depend: \tab mclust, poLCA\cr
-LazyLoad: \tab yes\cr
-}
-
 Index:\cr
 \tabular{ll}{
 vrclust.fit \tab fit the discret latent variable model\cr
