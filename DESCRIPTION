@@ -8,3 +8,6 @@ Description: This package provides an algorithm for clustering with controlling 
 License: GPL-2
 Encoding: UTF-8
 LazyLoad: true
+Imports: 
+    mclust,
+    poLCA
